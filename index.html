@@ -1,17 +1,125 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        /* Café Background */
+        body {
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.45),
+                rgba(0, 0, 0, 0.45)
+            ), url("img/cafe-background.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        /* Dynamic Button Hover Animation */
+        .cta-button {
+            display: inline-block;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-6px) scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+        }
+
+        .cta-button:active {
+            transform: translateY(-2px) scale(0.98);
+        }
+
+        /* Menu Heading */
+        .menu h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 35px;
+            text-shadow: 0 3px 6px rgba(0, 0, 0, 0.35);
+        }
+
+        /* Menu Layout */
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Light Brown Menu Cards */
+        .menu-item {
+            background-color: #d2a679;
+            color: #3b2416;
+            padding: 25px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-item:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+        }
+
+        .menu-item h3 {
+            margin-top: 0;
+            color: #3b2416;
+        }
+
+        .menu-item p {
+            color: #4a2e1d;
+        }
+
+        .menu-item span {
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #2f1b0f;
+        }
+
+        /* Navigation Hover */
+        nav ul li a {
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            transform: translateY(-3px);
+            text-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+        }
+
+        /* About Section */
+        .about p {
+            max-width: 850px;
+            margin: 15px auto;
+            line-height: 1.8;
+        }
+
+        /* Contact Section */
+        .contact p {
+            margin: 10px 0;
+        }
+    </style>
+
     <title>CozyCup Café</title>
 </head>
+
 <body>
+
     <header>
         <nav>
             <div class="logo">
                 <img src="img/logo.png" alt="CozyCup Café Logo">
             </div>
+
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
@@ -29,21 +137,144 @@
 
     <section id="menu" class="menu">
         <h2>Our Menu</h2>
-        <!-- Add menu items here -->
+
+        <div class="menu-container">
+
+            <div class="menu-item">
+                <h3>Classic Coffee</h3>
+                <p>Freshly brewed coffee made from quality beans.</p>
+                <span>₱120</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Americano</h3>
+                <p>Bold espresso combined with hot water.</p>
+                <span>₱130</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>Rich espresso topped with creamy steamed milk.</p>
+                <span>₱150</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Café Latte</h3>
+                <p>Smooth espresso blended with warm, creamy milk.</p>
+                <span>₱160</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Caramel Macchiato</h3>
+                <p>Espresso, steamed milk, vanilla, and caramel drizzle.</p>
+                <span>₱175</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Mocha</h3>
+                <p>Chocolate and espresso combined with steamed milk.</p>
+                <span>₱170</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Iced Coffee</h3>
+                <p>Refreshing chilled coffee served over ice.</p>
+                <span>₱140</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Iced Latte</h3>
+                <p>Cold espresso mixed with creamy milk and ice.</p>
+                <span>₱165</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Chocolate Frappe</h3>
+                <p>Blended chocolate drink topped with whipped cream.</p>
+                <span>₱180</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Strawberry Frappe</h3>
+                <p>Sweet and creamy strawberry blended drink.</p>
+                <span>₱180</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Chocolate Cake</h3>
+                <p>Rich and moist chocolate cake.</p>
+                <span>₱140</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Blueberry Cheesecake</h3>
+                <p>Creamy cheesecake topped with blueberry sauce.</p>
+                <span>₱160</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Chocolate Chip Cookies</h3>
+                <p>Freshly baked cookies filled with chocolate chips.</p>
+                <span>₱90</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Classic Croissant</h3>
+                <p>Buttery and flaky French-style pastry.</p>
+                <span>₱110</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Chicken Sandwich</h3>
+                <p>Grilled chicken, lettuce, tomato, and house sauce.</p>
+                <span>₱180</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Ham & Cheese Sandwich</h3>
+                <p>Classic ham and melted cheese served toasted.</p>
+                <span>₱170</span>
+            </div>
+
+        </div>
     </section>
 
     <section id="about" class="about">
         <h2>About Us</h2>
-        <p>Discover the story behind CozyCup Café...</p>
+
+        <p>
+            CozyCup Café was created with one simple idea: coffee tastes
+            better when you have a comfortable place to enjoy it.
+        </p>
+
+        <p>
+            From the first cup in the morning to an afternoon catch-up
+            with friends, CozyCup is a place where people can slow down,
+            relax, and enjoy good drinks and freshly prepared treats.
+            We aim to make every visit feel warm, casual, and welcoming.
+        </p>
     </section>
 
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
+
+        <p>For questions, suggestions, or inquiries, you can reach us through:</p>
+
+        <p>
+            <strong>Email 1:</strong>
+            202480111@psu.palawan.edu.ph
+        </p>
+
+        <p>
+            <strong>Email 2:</strong>
+            202480126@psu.palawan.edu.ph
+        </p>
     </section>
 
     <footer>
-        <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
+        <p>&copy; 2026 CozyCup Café. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
+```
