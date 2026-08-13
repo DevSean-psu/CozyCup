@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Cozy Cup Cafe is a simple and welcoming cafe project designed to provide customers with a cozy place to enjoy delicious food and drinks. It showcases the cafe's menu, services, and relaxing atmosphere in a simple and user-friendly way.
+Cozy Cup Cafe is more than just a coffee shop — it's a home away from home. Designed with a warm and relaxing ambiance, it's the perfect place to enjoy great food, freshly brewed coffee, and meaningful conversations with friends and family. Whether you're looking to unwind after a long day or catch up with loved ones, Cozy Cup Cafe offers a cozy, welcoming space where every visit feels comfortable and familiar.
 
 ## Features
 
