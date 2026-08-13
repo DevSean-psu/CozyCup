@@ -19,19 +19,19 @@ Cozy Cup Cafe is more than just a coffee shop, it's a home away from home. Desig
 
 <img src="img/screenshot1.jpg" width="500"/>
 
-Short description of what this screenshot shows (e.g. the homepage layout with hero banner).
+The homepage welcomes visitors with a warm hero banner, cafe branding, and quick navigation to Menu, About, and Contact sections.
 
 <img src="img/screenshot2.jpg" width="500"/>
 
-Short description of what this screenshot shows (e.g. the menu page listing drinks and food items).
+The menu page displays a full lineup of coffee drinks, frappes, desserts, and food items, each with a short description and price.
 
 <img src="img/screenshot3.jpg" width="500"/>
 
-Short description of what this screenshot shows (e.g. the about page with cafe story).
+The about page shares CozyCup Café's story and mission creating a relaxed and welcoming space to enjoy good coffee and company.
 
 <img src="img/screenshot4.jpg" width="500"/>
 
-Short description of what this screenshot shows (e.g. the contact page with map and form).
+The contact page provides email addresses for inquiries and support, along with the cafe's footer and copyright information.
 
 ## About the Authors
 
