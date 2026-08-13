@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Cozy Cup Cafe is more than just a coffee shop — it's a home away from home. Designed with a warm and relaxing ambiance, it's the perfect place to enjoy great food, freshly brewed coffee, and meaningful conversations with friends and family. Whether you're looking to unwind after a long day or catch up with loved ones, Cozy Cup Cafe offers a cozy, welcoming space where every visit feels comfortable and familiar.
+Cozy Cup Cafe is more than just a coffee shop — it's a home away from home. Designed with a warm and relaxing ambiance, it's the perfect place to enjoy great food, freshly brewed coffee, and meaningful conversations with friends and family. Whether you're looking to unwind after a long day or catch up with loved ones, Cozy Cup Cafe offers a cozy, welcoming space where every visit feels comfortable and familiar.g
 
 ## Features
 
